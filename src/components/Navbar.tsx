@@ -11,11 +11,11 @@ const navLinks = [
 export default function Navbar() {
   return (
     <nav className="max-w-7xl mx-auto  flex items-center justify-between py-6 px-6 md:px-4 z-20">
-      <a href="#" className="font-extrabold text-2xl tracking-tight text-black dark:text-white mr-8" aria-label="DEVLOP.ME logo">
+      <a href="#" className="font-extrabold text-2xl tracking-tight text-black mr-8" aria-label="DEVLOP.ME logo">
         DEVLOP.<span className="tracking-normal">ME</span>
       </a>
       {/* Nav Links */}
-      <ul className="hidden md:flex gap-8 items-center text-lg font-medium text-black dark:text-white">
+      <ul className="hidden md:flex gap-8 items-center text-lg font-medium text-black">
         {navLinks.map((link) => (
           <li key={link.name}>
             <a href={link.href} className="hover:underline focus:underline focus:outline-none transition-all px-2 py-1 rounded">

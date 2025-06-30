@@ -24,10 +24,10 @@ export default function HeroSection() {
         transition={{ duration: 0.8 }}
         className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-0"
       >
-        <h1 className="font-sporting mt-10 md:mt-24 text-center md:text-left text-3xl sm:text-5xl md:text-7xl font-semibold text-black dark:text-white leading-tight md:leading-[1.08] tracking-tight">
+        <h1 className="font-sporting mt-10 md:mt-24 text-center md:text-left text-3xl sm:text-5xl md:text-7xl font-semibold text-black leading-tight md:leading-[1.08] tracking-tight">
           <span className="block">
             Trusted{" "}
-            <span className="inline-block align-middle bg-black text-white rounded-[18px] px-4 sm:px-6 py-2 mx-1 md:mx-3 text-3xl sm:text-5xl md:text-7xl">
+            <span className="inline-block align-middle bg-black text-white rounded-[18px] px-4 sm:px-6 py-4 mx-1 md:mx-3 text-3xl sm:text-5xl md:text-7xl">
               Partner
             </span>{" "}
             for
@@ -43,7 +43,7 @@ export default function HeroSection() {
           <SocialSidebar />
 
           <div className="mt-8 sm:mt-12 flex flex-col max-w-3xl mx-auto items-center md:items-start">
-            <p className="text-base sm:text-lg md:text-xl text-center md:text-left text-gray-800 dark:text-gray-200 max-w-2xl font-medium">
+            <p className="text-base sm:text-lg md:text-xl text-center md:text-left text-gray-800 max-w-2xl font-medium">
               Building the world&apos;s best marketing websites for over a
               decade.
               <br />

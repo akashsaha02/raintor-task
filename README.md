@@ -7,7 +7,6 @@ A modern, accessible, and high-performance portfolio site built with **Next.js**
 ## ✨ Features
 
 - 🎨 Pixel-perfect, responsive design
-- 🌓 Dark/Light theme toggle (saved in local storage)
 - ⏳ Skeleton loader and loading spinner
 - 🪄 Virtualized list for better performance
 - 🛡️ Custom ErrorBoundary for error handling

@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="light">
+    <html lang="en">
       <head>
         <link href="https://fonts.cdnfonts.com/css/sporting-grotesque" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
