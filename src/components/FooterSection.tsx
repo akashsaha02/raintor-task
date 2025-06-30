@@ -77,8 +77,8 @@ export default function FooterSection() {
         {/* Bottom Row */}
         <div className="w-full flex flex-col md:flex-row items-center justify-between mt-8 gap-2 md:gap-4 text-center md:text-left">
           <span className="font-bold text-lg tracking-widest">BESNIK</span>
-          <span className="text-gray-400 text-sm text-[#757575] font-sporting">© devlop.me 2022</span>
-          <span className="text-gray-400 text-sm text-[#757575] font-sporting">PRIVACY – TERMS</span>
+          <span className="text-sm text-[#757575] font-sporting">© devlop.me 2022</span>
+          <span className="text-sm text-[#757575] font-sporting">PRIVACY – TERMS</span>
         </div>
       </div>
     </footer>
