@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+.font-sporting {
+  font-family: 'Sporting Grotesque', Arial, Helvetica, sans-serif !important;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  background: #232323;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #CCFF02;
+  border-radius: 4px;
+}
