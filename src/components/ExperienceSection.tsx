@@ -53,7 +53,7 @@ export default function ExperienceSection() {
             </span>
           </span>
         </h2>
-        <p className="text-center font-sporting text-gray-700 text-base md:text-lg max-w-5xl mx-auto mb-12">
+        <p className="text-center font-sporting text-gray-700 dark:text-gray-200 text-base md:text-lg max-w-5xl mx-auto mb-12">
           We start every new client interaction with an in-depth discovery call
           where we get
           <br />
@@ -63,7 +63,7 @@ export default function ExperienceSection() {
       {/* Previously Worked On */}
       <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-end gap-8 mt-8 px-2 sm:px-4 relative">
         <div className="w-full md:w-1/4 flex flex-col items-center md:items-center pl-2 mb-8 md:mb-0">
-          <span className="font-bold text-lg md:text-2xl text-black tracking-tight text-center md:text-left font-sporting">
+          <span className="font-bold text-lg md:text-2xl text-black dark:text-white tracking-tight text-center md:text-left font-sporting">
             PREVIOUSLY
             <br />
             WORKED ON

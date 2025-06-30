@@ -25,7 +25,7 @@ const socials = [
 export default function SocialSidebar() {
   return (
     <div className="hidden lg:flex flex-col items-center justify-start pt-4 pr-6 select-none">
-      <span className="text-sm font-semibold text-black rotate-[-90deg] relative top-24 mb-3 mt-1">@williamrey</span>
+      <span className="text-sm font-semibold text-black dark:text-white rotate-[-90deg] relative top-24 mb-3 mt-1">@williamrey</span>
       {/* Social icons */}
       <div className="flex relative justify-center items-center left-10 flex-col gap-2 mb-2">
         {socials.map((s) => (
@@ -35,13 +35,13 @@ export default function SocialSidebar() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={s.label}
-            className="text-black rotate-[-90deg] hover:text-blue-500 focus:text-blue-500 transition-colors outline-none"
+            className="text-black dark:text-white rotate-[-90deg] hover:text-blue-500 focus:text-blue-500 transition-colors outline-none"
             tabIndex={0}
           >
             {s.icon}
           </a>
         ))}
-        <span className="block w-[0.1rem] h-10 bg-black opacity-60" />
+        <span className="block w-[0.1rem] h-10 bg-black dark:bg-white opacity-60" />
       </div>
       {/* Username vertical */}
       

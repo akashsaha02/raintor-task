@@ -5,6 +5,13 @@
   --foreground: #171717;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
 .font-sporting {
   font-family: 'Sporting Grotesque', Arial, Helvetica, sans-serif !important;
 }

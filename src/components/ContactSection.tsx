@@ -14,8 +14,8 @@ export default function ContactSection() {
     >
       {/* Top bar */}
       <div className="flex relative -left-[31rem] items-center mb-8">
-        <div className="w-10 h-10 flex items-center justify-center border-2 border-black rounded-full">
-          <FaArrowDown className="text-black text-lg" />
+        <div className="w-10 h-10 flex items-center justify-center border-2 border-black dark:border-gray-300 rounded-full">
+          <FaArrowDown className="text-black dark:text-white text-lg" />
         </div>
         <button className="border border-black rounded-full px-5 py-2 text-black font-medium bg-white/80 hover:bg-white focus:outline-none focus:ring-2 focus:ring-black transition-all">
           Contact
@@ -24,10 +24,10 @@ export default function ContactSection() {
       <div className="w-full max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-start justify-between">
         {/* Left column */}
         <div className="flex-1 flex flex-col gap-6 md:gap-8">
-          <h2 className="font-sporting text-4xl md:text-6xl font-bold text-black text-left leading-tight">
+          <h2 className="font-sporting text-4xl md:text-6xl font-bold text-black dark:text-[#CCFF02] text-left leading-tight">
             Interested in <span className="inline-block align-middle bg-black text-white rounded-lg px-4 py-2 mx-2">work</span> together?
           </h2>
-          <p className="text-base md:text-lg text-black/80 max-w-lg mt-2">
+          <p className="text-base md:text-lg text-black/80 dark:text-gray-300 max-w-lg mt-2">
             We start every new client interaction with an in-depth discovery call where we get to know each other
           </p>
           <button className="flex items-center gap-2 border border-black rounded-full px-2 py-3 text-black font-medium bg-white/80 hover:bg-white transition-all w-fit mt-4 text-lg">
